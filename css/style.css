@@ -1,8 +1,5 @@
 main {
   background:  url('../img/your_verse_hero.jpg') 50% 100% no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   padding: 15px 0;
 }
 
@@ -13,9 +10,16 @@ nav {
   justify-content: center;
   align-items: center;
   background: #5e5e5e;
-  background: -webkit-linear-gradient(#888, #5e5e5e);
-  background:      -o-linear-gradient(#888, #5e5e5e);
-  background:         linear-gradient(#888, #5e5e5e);
+  /* background: -webkit-linear-gradient(#888, #5e5e5e);
+  background:      -o-linear-gradient(#888, #5e5e5e); */
+  background:         linear-gradient(#8b8b8b, #717171 50%, #5e5e5e 50%, #787878);
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-top-color: #7b7b7b;
+  border-bottom-color: #565656;
+  border-right-color: #565656;
+  border-left-color: #818181;
 }
 
 .nav-item{
