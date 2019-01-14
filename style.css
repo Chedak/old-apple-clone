@@ -8,9 +8,16 @@ main {
 
 nav {
   display: flex;
+  width: 845px;
+  margin: 0 auto;
   justify-content: center;
+  align-items: center;
+  background: #5e5e5e;
+  background: -webkit-linear-gradient(#888, #5e5e5e);
+  background:      -o-linear-gradient(#888, #5e5e5e);
+  background:         linear-gradient(#888, #5e5e5e);
 }
 
 .nav-item{
-padding: 10px 25px;
+padding: 10px 15px;
 }
