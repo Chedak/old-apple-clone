@@ -5,13 +5,13 @@ main {
 
 nav {
   display: flex;
-  width: 845px;
+  max-width: 845px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   background: #5e5e5e;
-  /* background: -webkit-linear-gradient(#888, #5e5e5e);
-  background:      -o-linear-gradient(#888, #5e5e5e); */
+  background: -webkit-linear-gradient(#8b8b8b, #717171 50%, #5e5e5e 50%, #787878);
+  background:      -o-linear-gradient(#8b8b8b, #717171 50%, #5e5e5e 50%, #787878);
   background:         linear-gradient(#8b8b8b, #717171 50%, #5e5e5e 50%, #787878);
   border-radius: 5px;
   border-width: 1px;
@@ -24,4 +24,19 @@ nav {
 
 .nav-item{
 padding: 10px 15px;
+}
+
+.nav-item a{
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 18px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px -1px .5px #000 ,0px 1px .5px #444;
+
 }
