@@ -1,4 +1,16 @@
 main {
   background:  url('./your_verse_hero.jpg') 50% 100% no-repeat;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item{
+padding: 10px 25px;
 }
