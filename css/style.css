@@ -96,6 +96,7 @@ footer {
 footer a {
   color: #08c;
   display: inline-block;
+  text-decoration: none;
 }
 
 .footer-top {
@@ -106,7 +107,10 @@ footer a {
   padding-bottom: 15px;
 }
 
-.footer-links .left {
+.footer-links.left {
   display: flex;
-  align-items: stretch;
+}
+
+.footer-links.left a {
+  margin: 0 5px;
 }
