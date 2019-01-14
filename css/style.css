@@ -1,7 +1,4 @@
 body {
-  font: 11px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background-color: transparent;
-  color: #333;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -33,22 +30,21 @@ nav {
   }
 
 .nav-item{
-padding: 10px 15px;
+  padding: 10px 15px;
 }
 
 .nav-item a{
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    font-size: 12px;
-    letter-spacing: .5px;
-    line-height: 18px;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    color: white;
-    text-decoration: none;
-    text-shadow: 0px -1px .5px #000 ,0px 1px .5px #444;
-
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  letter-spacing: .5px;
+  line-height: 18px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px -1px .5px #000 ,0px 1px .5px #444;
 }
 
 main h1, .main-text, .help-text{
@@ -88,13 +84,18 @@ main h1 {
 
 footer {
   max-width: 1050px;
-  margin: 0 auto 50px;
+  margin: 0 auto 45px;
   align-items: flex-start;
   padding-top: 35px;
+
+  font: 11px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  background-color: transparent;
+  color: #333;
 }
 
 footer a {
   color: #08c;
+  display: inline-block;
 }
 
 .footer-top {
@@ -103,4 +104,9 @@ footer a {
   align-items: flex-start;
   justify-content: space-between;
   padding-bottom: 15px;
+}
+
+.footer-links .left {
+  display: flex;
+  align-items: stretch;
 }
