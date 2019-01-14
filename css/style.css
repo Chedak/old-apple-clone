@@ -73,7 +73,7 @@ nav {
 main h1, .main-text, .help-text{
   max-width: 845px;
   color: white;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 100;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: lighter;
   text-align: center;
 }
 
@@ -89,12 +89,25 @@ main h1 {
 
 .help-text {
   margin: 35px auto 150px;
+
 }
 
 .help-text a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
   text-decoration: none;
   font-size: 26px;
   color: inherit;
+}
+
+.help-text a:hover {
+  text-decoration: underline;
+}
+
+.help-text a img {
+  margin-left: 15px;
 }
 
 .products {
@@ -106,7 +119,7 @@ main h1 {
 }
 
 footer {
-  max-width: 1050px;
+  max-width: 1100px;
   margin: 0 auto 45px;
   align-items: flex-start;
   padding-top: 35px;
