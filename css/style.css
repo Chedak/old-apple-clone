@@ -79,6 +79,11 @@ nav {
   border-radius: 20px;
   border: 1px solid #565656;
   outline: none;
+  transition: width .2s ease-in; 
+}
+
+.nav-item-search input:focus {
+  width: 130px;
 }
 
 main h1, .main-text, .help-text{
